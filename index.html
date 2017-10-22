@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Bootstrap 模板</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery.js"></script>
+   </head>
+   <body>
+      <style>
+            ::-webkit-scrollbar  
+            {  
+                width: 5px;  
+                height: 10px;  
+                background-color:  rgba( 204,204,204 ,0.2);  
+            }  
+              
+            /*定义滚动条轨道 内阴影+圆角*/  
+            ::-webkit-scrollbar-track  
+            {  
+                -webkit-box-shadow: inset 0 0 6px rgba( 204,204,204 ,0.2);  
+                /* border-radius: 3px;   */
+                /* background-color: #F5F5F5;   */
+            }  
+              
+            /*定义滑块 内阴影+圆角*/  
+            ::-webkit-scrollbar-thumb  
+            {  
+                border-radius: 3px;  
+                -webkit-box-shadow: inset 0 0 6px rgba( 204,204,204 ,0.2);  
+                background-color: #ccc;  
+            }  
+
+            .scroll-limit {
+                 overflow-y: scroll;
+                 overflow-x: hidden; 
+                 height: 100px;    
+            } 
+
+            .col-2 {
+               float: left;
+               width: 20%;
+               text-align: center;
+            }
+            
+            .t-head {
+               font-size: 12px;
+               font-weight: bold;
+               background-color: rgba( 204,204,204 ,0.3);
+               overflow: hidden;
+               /* width: 500px; */
+
+            }
+
+            .t-body {
+               padding-left: 5px;
+               border-left: 1px solid rgba( 204,204,204 , 0.3);
+               border-bottom: 1px solid rgba( 204,204,204 , 0.3) ; 
+               border-right: 1px solid rgba( 204,204,204 , 0.3); 
+               font-size: 12px;
+               /* width: 500px; */
+            }
+
+            .bot-sty {
+               border-bottom: 1px  solid  rgba( 204,204,204 ,0.2) ; 
+            }
+            .bot-sty:hover {
+               background: rgba( 204,204,204 ,0.1) ;
+            }
+
+            .txt-limit {
+               overflow: hidden;
+               text-overflow: ellipsis;
+               white-space: nowrap; 
+
+             }
+            .container {
+               width:   500px;
+            }
+      </style>
+
+
+ <div class="container">
+   <div class="t-head" >
+      <div class="row  "> 
+           <div class="col-2" > Name </div>         
+           <div class="col-2"> SKU</div>         
+           <div class="col-2"> Category </div>         
+           <div class="col-2"> Address  </div>         
+           <div class="col-2 txt-limit"> ABCaasdas</div>         
+      </div>
+   </div >
+
+   <div  class="t-body scroll-limit">  
+      <div class="row bot-sty" > 
+           <div class="col-2 txt-limit" title=" " >1111sdfssefsfefsefessfefsesefsefsfesefsfe </div>         
+           <div class="col-2 txt-limit" title=" ">222sdfsdssssssssssssssssssssf</div>         
+           <div class="col-2 txt-limit" title=" ">333sdfsd</div>         
+           <div class="col-2 txt-limit" title=" ">444sdfsd</div>         
+           <div class="col-2 txt-limit" title=" ">555sdfssdfsdffsefsefesf</div>         
+      </div>
+     
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs ssss</div>         
+           <div class="col-2 txt-limit">222sdfsdfssss</div>         
+           <div class="col-2 txt-limit">333sdfsdsss</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs </div>         
+           <div class="col-2 txt-limit">222sdfsdf</div>         
+           <div class="col-2 txt-limit">333sdfsd</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs </div>         
+           <div class="col-2 txt-limit">222sdfsdf</div>         
+           <div class="col-2 txt-limit">333sdfsd</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs </div>         
+           <div class="col-2 txt-limit">222sdfsdf</div>         
+           <div class="col-2 txt-limit">333sdfsd</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+     
+
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs </div>         
+           <div class="col-2 txt-limit">222sdfsdf</div>         
+           <div class="col-2 txt-limit">333sdfsd</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+
+
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs </div>         
+           <div class="col-2 txt-limit">222sdfsdf</div>         
+           <div class="col-2 txt-limit">333sdfsd</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+     
+
+      <div class="row bot-sty"> 
+           <div class="col-2 txt-limit">1111sdfs </div>         
+           <div class="col-2 txt-limit">222sdfsdf</div>         
+           <div class="col-2 txt-limit">333sdfsd</div>         
+           <div class="col-2 txt-limit">444sdfsd</div>         
+           <div class="col-2 txt-limit">555sdf</div>         
+      </div>
+   </div>
+
+ </div>
+
+
+
+
+
+
+
+   </body>
+</html>
